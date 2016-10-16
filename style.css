@@ -1,5 +1,5 @@
 body{
-	/*background-image: url(img/518169-backgrounds.jpg);*/
+	background-image: url(img/background-2.jpg);
 	width: 50%;
 	margin-left :25%;
 	margin-right: 25%;
@@ -19,12 +19,16 @@ div textarea {
 div strong{
 	font-size: 30px;
 	font-weight: 500px
-	text-align: center;
+	
 	margin-bottom: 100px !important;
 }
 
 form{
 	margin-top: 15px;
-	background-color: lightblue;
+	/*border :solid;*/
+	border-style: blue;
 	padding : 15px;
+}
+button {
+	text-align: left;
 }	
