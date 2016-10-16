@@ -1,0 +1,22 @@
+{
+  "name": "gittrainning",
+  "version": "1.0.0",
+  "description": "project of git trainning (contact form) following : openClassRoom courses",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/LindaHARASSINI/gitTrainning.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/LindaHARASSINI/gitTrainning/issues"
+  },
+  "homepage": "https://github.com/LindaHARASSINI/gitTrainning#readme",
+  "dependencies": {
+    "bootstrap": "^3.3.7"
+  }
+}

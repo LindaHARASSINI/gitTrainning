@@ -2,25 +2,41 @@
 <html xmlns="http://www.w3.org/1999/xhtml" xml:lang="fr" >
 	<head>
 		<title> Formulaire de contact</title>
-		<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />		
-		<link rel="stylesheet" media="screen" type="text/css" title="page_web" href="style.css"/> 
+		<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">		
 		
+		<link href="node_modules/bootstrap/dist/css/bootstrap.min.css" rel="stylesheet">
+		<link rel="stylesheet" media="screen" type="text/css" title="page_web" href="style.css"/> 
 	</head>
 	<body>
-	 	<div><strong>Formulaire de contact</strong></div>
-	 	<form>
-	 		<div>Nom: <input type="text" name=""> </div>
-		 	<div>Prenom: <input type="text" name=""></div>
-		 	<div>email :<input type="text" name=""></div>
-		 	<div> 
-			 	Message :<textarea type="text" name=""></textarea>
-			</div>
+	 	<div><h1 class="text-center">Formulaire de contact</h1></div>
+	 	<form class="form-horizontal">
+	 		<div class="form-group">
+	 			<label for="name" class="col-sm-2 control-label">Nom </label>
+	 		 	<div class="col-sm-10"> 
+	 		 		<input type="text" class="form-control"  name=""> 
+	 		 	</div>
+	 		</div> 	
+	 		<div class="form-group">
+	 			<label for="firstName" class="col-sm-2 control-label">Prénom </label>
+	 		 	<div class="col-sm-10"> 
+	 		 		<input type="text" class="form-control"  name=""> 
+	 		 	</div>
+	 		</div>
+	 		<div class="form-group">
+			    <label for="inputEmail3" class="col-sm-2 control-label">Email</label>
+			    <div class="col-sm-10">
+			       <input type="email" class="form-control" name="">
+			    </div>
+			</div> 
+			<div class="form-group">
+			    <label for="inputEmail3" class="col-sm-2 control-label">Message</label>
+			    <div class="col-sm-10">
+			      <textarea class="form-control" rows="3" name=""></textarea>
+			    </div>
+			</div> 
 			
-	 	</form>
-	 	
-
-		 	
-	 	
+	 	</form>	
 
 	</body>
 </html>
