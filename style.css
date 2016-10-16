@@ -16,19 +16,22 @@ div textarea {
 	margin: 0px;
 } 
 
-div strong{
+div > strong {
 	font-size: 30px;
-	font-weight: 500px
-	
+	font-weight: bold;	
 	margin-bottom: 100px !important;
 }
 
 form{
 	margin-top: 15px;
-	/*border :solid;*/
-	border-style: blue;
 	padding : 15px;
 }
+
+form > div {
+	margin-bottom: 30px !important;
+}
 button {
-	text-align: left;
+	color: black !important;
+	font-style: oblique;
+	font-weight: bold !important;
 }	
