@@ -1,0 +1,28 @@
+body{
+	
+	width: 20%;
+	margin-left :40%;
+	margin-right: 40%;
+	margin-top: 10%;
+}
+div{
+	margin:10px;
+	font-size: 18px;
+}
+div input, div textarea{
+	float: right;	
+}
+
+div textarea {
+	margin: 0px;
+}
+
+div strong{
+	font-size: 30px;
+	text-align: center;
+	margin-bottom: 100px !important;
+}
+form{
+	margin-top: 15px;
+	background-color: lightblue;
+	padding : 15px;
